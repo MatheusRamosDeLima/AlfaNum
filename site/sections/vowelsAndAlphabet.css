@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(95, 156, 255), rgb(49, 96, 248));
+    background-size: 100%;
+    color: white;
+    font: normal 12pt Arial;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+#configurations {
+    background-color: white;
+    color: black;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#configurations h2 {
+    font-size: 18pt;
+}
+
+#configurations-letterType, #configurations-wantImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+#configurations-letterType div, #configurations-wantImage div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+#configurations label {
+    font-size: 15pt;
+}
+
+#confirmConfigurations {
+    width: 80px;
+    height: 25px;
+}
+
+#principal {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigationButtons {
+    font-size: 65pt;
+    background-color: white;
+    color: black;
+    width: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.524);
+    cursor: pointer;
+}
+
+#divLetter {
+    font-size: 700%;
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 240px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.524);
+    cursor: default;
+}

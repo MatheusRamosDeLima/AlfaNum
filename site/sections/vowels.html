@@ -8,6 +8,48 @@
     <title>AlfaNum - Vogais</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Vogais</h1>
+    </header>
+    <main>
+        <section>
+            <div id="configurations">
+                <h2>Selecione o tipo de letra a ser usado:</h2>
+                <div id="configurations-letterType">
+                    <div>
+                        <input type="radio" name="letterType" id="upperCase" checked>
+                        <label for="upperCase">Letras maiúsculas</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="letterType" id="lowerCase">
+                        <label for="lowerCase">Letras minúsculas</label>
+                    </div>
+                </div>
+                <h2>Deseja incluir assimilações visuais/imagens?</h2>
+                <div id="configurations-wantImage">
+                    <div>
+                        <input type="radio" name="wantImage" id="yes" checked>
+                        <label for="yes">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="wantImage" id="no">
+                        <label for="no">Não</label>
+                    </div>
+                </div>
+                <input type="button" value="Confirmar" id="confirmConfigurations">
+            </div>
+        </section>
+        <section id="system">
+            <section id="principal">
+                <div id="divPreviousLetter" class="navigationButtons">&#8249;</div>
+                <div id="divLetter"></div>
+                <div id="divNextLetter" class="navigationButtons">&#8250;</div>
+            </section>
+            <section id="secundary">
+                <div id="firstLetter"></div>
+                <div id="lastLetter"></div>
+            </section>
+        </section>
+    </main>
 </body>
 </html>
