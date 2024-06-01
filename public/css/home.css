@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(var(--main-height) - 2 * var(--main-padding-block));
+}
+
+.select-system {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-orientations {
+    font-size: 20px;
+}
+
+.systems {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.system {
+    width: 220px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--medium-bgcolor);
+    font-size: 24px;
+    color: var(--title-color);
+    text-decoration: none;
+
+    border-radius: 7px;
+}
