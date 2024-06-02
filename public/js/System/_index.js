@@ -28,13 +28,17 @@ function nextItem() {
 }
 
 function firstItem() {
-    recentPositionOfItem = 0;
-    divItem.innerHTML = `${items[recentPositionOfItem]}`;
+    if (!isLetterItems || isLetterFormatationSelected) {
+        recentPositionOfItem = 0;
+        divItem.innerHTML = `${items[recentPositionOfItem]}`;
+    }
 }
 
 function lastItem() {
-    recentPositionOfItem = items.length - 1;
-    divItem.innerHTML = `${items[recentPositionOfItem]}`;
+    if (!isLetterItems || isLetterFormatationSelected) {
+        recentPositionOfItem = items.length - 1;
+        divItem.innerHTML = `${items[recentPositionOfItem]}`;
+    }
 }
 
 function selectLetterFormatation() {
