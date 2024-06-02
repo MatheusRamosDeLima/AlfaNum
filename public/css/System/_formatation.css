@@ -1,0 +1,26 @@
+.select-formatation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: var(--medium-bgcolor);
+    padding: 8px;
+    border-radius: 8px;
+    margin-block: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.radio-inputs {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.button-input {
+    width: 75px;
+}

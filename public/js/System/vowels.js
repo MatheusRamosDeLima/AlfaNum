@@ -1,0 +1,1 @@
+const items = ['a', 'e', 'i', 'o', 'u'];

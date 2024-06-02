@@ -1,0 +1,112 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-title {
+    text-align: center;
+    font-size: 35px;
+    margin-block: 10px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-block: 10px;
+}
+
+.system-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.system-mobile, .system-shortcuts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.system-mobile .system-button, .system-shortcuts .system-shortcut-button {
+    width: 70px;
+    height: 40px;
+
+    background-color: var(--medium-bgcolor);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.system-mobile .system-button span {
+    font-size: 30px;
+}
+
+.system-desktop {
+    width: calc(100vw - 20px);
+    max-width: 200px;
+}
+
+.system-desktop .system-button {
+    display: none;
+}
+
+.system-view {
+    max-width: 200px;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border: 1px solid var(--title-color);
+    border-radius: 5px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .system-mobile {
+        display: none;
+    }
+
+    .system-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+        width: calc(100vw - 20px);
+        max-width: 750px;
+    }
+
+    .system-desktop .system-button {
+        width: 70px;
+        height: 120px;
+    
+        background-color: var(--medium-bgcolor);
+        border-radius: 10px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .system-desktop .system-button span {
+        font-size: 45px;
+    }
+}
+
+.system-shortcuts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
